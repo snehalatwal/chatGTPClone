@@ -6,7 +6,6 @@ const json=require("json");
 const PORT = 8000;
 const app = express();
 const API_KEY =process.env.secretKey;
-// const API_KEY  = "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";
 
 
 app.use(express.json());
